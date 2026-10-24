@@ -1,0 +1,56 @@
+.header{
+    font-size: 18px;
+}
+.header:hover{
+    color: black;
+}
+
+.nav-item .nav-link{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+    padding: 5px 20px !important;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.nav-item .nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.footer .nav-link{
+    color: #fff;
+}
+
+.footer .nav-link:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.text-justify{
+    text-align: justify;
+}
+
+.bi{
+    font-size: 25px;
+    margin: 10px;
+    color: #fff;
+}
+
+.bi:hover{
+color: red;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.image img{
+    transition: .5s ease;
+}
+
+.image img:hover{
+    transform: scale(1.3);
+}
